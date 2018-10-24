@@ -43,7 +43,13 @@
 	margin-left: 0px;
 }
 .ok {
-	border-left: 10px solid lime;
+	border-left: 10px solid red;
 	border-radius: 0.7em 0 0 0.7em;
 	margin-left: 0px;
+}
+.hint {
+	border-left: 10px solid darkorange;
+	border-radius: 0.7em 0 0 0.7em;
+	margin-left: 0px;
+
 }
