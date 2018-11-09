@@ -1,0 +1,155 @@
+/**********************************/
+/********** BASIC STYLES **********/
+/**********************************/
+
+body {
+	font-family: verdana;
+	font-size: 12px;
+	box-sizing: border-box;
+}
+
+
+/******************************************/
+/********** HTML ELEMENTS STYLES **********/
+/******************************************/
+
+/********** COMMON FORMULAR STYLES **********/
+fieldset, input, textarea, select {
+	border-radius: 5px;
+}
+fieldset {
+	margin-bottom: 10px;
+}
+fieldset fieldset {
+	width: 78%;
+	border: 1px solid gray;
+}
+select.day {
+	width: 75px;
+}
+select.month {
+	width: 100px;
+}
+select.year {
+	width: 75px;
+}
+input, textarea {
+	margin: 5px 0;
+	padding: 5px;
+	width: 80%;
+}
+textarea {
+	height: 100px;
+	font-family: verdana;
+}
+input[type="submit"] {
+	width: 100%;
+}
+input.short {
+	width: 125px;
+}
+
+/********** TABLES **********/
+table {
+	width: 100%; 
+	font-family: courier new; 
+	font-size: 0.9em; 
+}
+table, td { 
+	border: 1px solid teal; 
+	border-collapse: collapse;
+}
+th {
+	background-color: lightblue; 
+	padding: 10px;
+}
+td {
+	padding: 10px;  
+	text-align: center; 
+	color: teal;
+}
+td:last-child {
+	/* for future use */
+}
+tr:nth-child(even) {
+	background-color: #eee;
+}
+tr:hover {
+	background-color: #dee;
+}
+
+
+/*****************************/
+/********** CLASSES **********/
+/*****************************/
+
+/********** SPECIAL FORMULARS STYLES **********/
+header.loginHeader {
+	text-align: right;
+}
+form.login {
+	width: 435px;
+}
+
+/********** FLOATING **********/
+.fleft {
+	float: left;
+}
+.fright {
+	float: right;
+}
+.clearer {
+	clear: both;
+	width: 0px;
+	height: 0px;
+}
+
+/********** AVATAR IMAGE **********/
+img.avatar {
+	width: 150px;
+	height: 150px;
+	margin: 15px 15px 15px 0;
+	border: 1px solid lightgray;
+	padding: 5px;
+}
+
+/********** USER MESSAGES STYLES **********/
+.error {
+	color: red;
+}
+.success {
+	color: green;
+}
+.info {
+	color: darkorange;
+}
+.marker {
+	color: darkred;
+	font-size: 1.1em;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+/********** SPECIAL SAFETYCHECK MESSAGES STYLES **********/
+.deleteProfileCheck {
+	border-radius: 5px;
+	text-align: center;
+	color: gray;
+	background: rgba(255,140,0,0.3);
+	margin: 100px 0;
+	padding: 25px;
+}
+.deleteProfileCheck p {
+	color: black;
+}
+.deleteProfileCheck a {
+	font-weight: bold;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+.deleteProfileCheck a:hover {
+	text-decoration: underline;
+}
+
+
+
